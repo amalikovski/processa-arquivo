@@ -1,4 +1,4 @@
-package br.com.processaarquivo.vo;
+package br.com.processaarquivo.model;
 
 import lombok.*;
 
@@ -15,7 +15,6 @@ public class InputData {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     Integer id;
     String dataType;
     String firstData;

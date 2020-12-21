@@ -1,4 +1,4 @@
-package br.com.processaarquivo.vo;
+package br.com.processaarquivo.model;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -18,7 +18,7 @@ import javax.persistence.Id;
 public class OutputData {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String dataType;
     private String firstData;

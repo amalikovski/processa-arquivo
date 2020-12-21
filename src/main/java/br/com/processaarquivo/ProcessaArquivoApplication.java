@@ -34,7 +34,7 @@ public class ProcessaArquivoApplication {
         SpringApplication.run(ProcessaArquivoApplication.class, args);
     }
 
-    @Scheduled(cron = "0 */1 * * * ?")
+    @Scheduled(fixedDelay = 10000)
     public void perform() throws Exception {
         JobParameters params = new JobParametersBuilder()
                 .addString("JobID", String.valueOf(System.currentTimeMillis()))

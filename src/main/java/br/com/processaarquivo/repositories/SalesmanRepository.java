@@ -1,4 +1,4 @@
-package br.com.processaarquivo.vo;
+package br.com.processaarquivo.repositories;
 
 
 import br.com.processaarquivo.model.Salesman;

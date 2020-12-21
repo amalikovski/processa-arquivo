@@ -18,7 +18,7 @@ import java.math.BigDecimal;
 public class Salesman {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String nrCpf;
     private String name;
