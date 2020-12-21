@@ -27,3 +27,7 @@ hs_err_pid*
 processa-arquivo.iml
 
 outputData.csv
+
+target/
+
+processa-arquivo.iml
